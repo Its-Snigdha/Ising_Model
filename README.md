@@ -1,12 +1,18 @@
 # **Ising Model Simulation using Monte Carlo Method**
 
-This project implements the **2D Ising Model** using the **Metropolis Algorithm** to study phase transitions in statistical mechanics. The simulation measures **magnetization, energy, and specific heat** as a function of temperature.
+This project implements the **2D Ising Model** using the **Metropolis Algorithm** to study phase transitions in statistical mechanics. The simulation is performed on both **square and triangular lattices**. 
+
+- For the **square lattice**, we simulate **both ferromagnetic and antiferromagnetic interactions**.  
+- For the **triangular lattice**, we simulate **only the antiferromagnetic interaction**.
 
 ---
 
 ## **Methodology**
 - The **Metropolis algorithm** is used to update spin configurations.
-- The system is a **square lattice** with periodic boundary conditions.
+- Simulations are run on:
+  - **Square lattice** for both **ferromagnetic** and **antiferromagnetic** interactions.
+  - **Triangular lattice** for **antiferromagnetic** interaction only.
+- The system follows **periodic boundary conditions**.
 - Energy and magnetization are computed at each Monte Carlo step.
 - Thermal equilibrium is reached over multiple iterations.
 
@@ -14,6 +20,7 @@ This project implements the **2D Ising Model** using the **Metropolis Algorithm*
 
 ## **Files Included**
 - `ising.ipynb` → Jupyter Notebook containing the simulation.
+
 ---
 
 ## **How to Run**
@@ -30,12 +37,18 @@ This project implements the **2D Ising Model** using the **Metropolis Algorithm*
 
 ---
 
+## **Results**
+- **Phase transitions** are observed based on temperature variations.
+- **Ferromagnetic interactions** (square lattice) lead to spontaneous magnetization at low temperatures.
+- **Antiferromagnetic interactions** (both square and triangular lattices) show different ordering patterns.
+
+---
+
 ## **Dependencies**
-- Matplotlib
-- NumPy
+- Matplotlib  
+- NumPy  
 
 ---
 
 ## **License**
 This project is open-source and available under the **MIT License**.
-
