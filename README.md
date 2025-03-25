@@ -14,8 +14,6 @@ This project implements the **2D Ising Model** using the **Metropolis Algorithm*
 
 ## **Files Included**
 - `ising.ipynb` → Jupyter Notebook containing the simulation.
-- `ising.py` (if exported) → Python script for running the simulation.
-
 ---
 
 ## **How to Run**
