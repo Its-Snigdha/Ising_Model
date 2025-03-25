@@ -17,8 +17,6 @@ This project implements the **2D Ising Model** using the **Metropolis Algorithm*
 ---
 
 ## **How to Run**
-## How to Run  
-
 ### **Option 1: Jupyter Notebook**  
 1. Download the `.ipynb` file.  
 2. Open Jupyter Notebook.  
