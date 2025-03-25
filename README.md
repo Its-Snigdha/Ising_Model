@@ -17,13 +17,18 @@ This project implements the **2D Ising Model** using the **Metropolis Algorithm*
 ---
 
 ## **How to Run**
-1. Download `ising.ipynb` from this repository.
-2. Open it in **Jupyter Notebook** or **Google Colab**.
-3. Run all cells to perform the simulation.
-4. Modify parameters such as:
-   - Lattice size (`L`)
-   - Temperature range
-   - Number of Monte Carlo steps
+## How to Run  
+
+### **Option 1: Jupyter Notebook**  
+1. Download the `.ipynb` file.  
+2. Open Jupyter Notebook.  
+3. Run the cells in order.  
+
+### **Option 2: Google Colab**  
+1. Open [Google Colab](https://colab.research.google.com/).  
+2. Click **"File" → "Upload Notebook"**.  
+3. Select the `.ipynb` file.  
+4. Run the cells.  
 
 ---
 
